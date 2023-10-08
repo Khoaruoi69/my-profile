@@ -1,0 +1,46 @@
+section_animation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+}
+
+h1{
+  color: white;
+  margin-bottom: 5em;
+}
+
+section_animation::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #1c0522, transparent);
+  z-index: 999999;
+}
+
+section_animation img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+section_animation img#moon {
+  mix-blend-mode: screen;
+}
+section_animation img#moon {
+  mix-blend-mode: screen;
+}
+
+section_animation img#mountains_front {
+  z-index: 10;
+}
