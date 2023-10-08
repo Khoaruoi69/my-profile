@@ -208,6 +208,32 @@ button:focus {
 /* --------- */
 /* Home section */
 /* --------- */
+
+/*up-down animation*/
+.up-down {
+  animation-name: up-down;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+  display: inline-block;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(-10px) scale(0.9);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/*-----------------*/
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
@@ -257,7 +283,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/Images/galaxy-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/Images/galaxy.png);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;

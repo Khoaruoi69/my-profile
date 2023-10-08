@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Home3 from "./Home3";
 import Type from "./Type";
-import moon from "../../Assets/Images/moon.png"
+import ufo from "../../Assets/Images/ufo.png"
 function Home() {
   return (
     <section>
@@ -18,13 +18,13 @@ function Home() {
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
+                 👽
                 </span>
               </h1>
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> KHOA NGUYEN</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -32,23 +32,19 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              {/* <img
-                src={homeLogo}
+            <Col md={5} style={{ paddingBottom: 20 }} className="up-down">
+              <img src={ufo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              /> */}
-              <img src={moon}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "400px" }}
               />
             </Col>
           </Row>
         </Container>
+        <Container style={{marginTop: "5em"}}>
+           <Home2 />
+        </Container>
       </Container>
-      <Home2 />
     </section>
   );
 }
