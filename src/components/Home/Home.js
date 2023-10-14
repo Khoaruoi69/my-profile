@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-import Home3 from "./Home3";
 import Globe from "./Globe";
+import Home3 from "./Home3";
 import Type from "./Type";
 import ufo from "../../Assets/Images/ufo.png";
 function Home() {
@@ -45,9 +45,6 @@ function Home() {
         </Container>
         <Container style={{ marginTop: "5em" }}>
           <Home2 />
-        </Container>
-        <Container>
-          <Globe />
         </Container>
       </Container>
     </section>

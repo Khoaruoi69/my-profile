@@ -69,11 +69,11 @@ class App {
   }
 
   addControlGui = callback => {
-    const guiContainer = document.getElementById("controls-container");
-    var gui = new dat.GUI();
-    guiContainer.appendChild(gui.domElement);
+    // const guiContainer = document.getElementById("controls-container");
+    // var gui = new dat.GUI();
+    // guiContainer.appendChild(gui.domElement);
 
-    callback(gui);
+    // callback(gui);
   }
 
   handleResize = () => {

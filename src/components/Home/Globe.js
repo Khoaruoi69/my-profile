@@ -1,12 +1,11 @@
 import React, { useEffect } from "react";
-import "../../style/globe.css";
+import JsGlobe from "./Js-globe";
+
 function Globe() {
   return (
-    <body-globe>
-      <div id="controls-container">
-        <canvas id="canvas"></canvas>
-      </div>
-    </body-globe>
+    <div>
+      <JsGlobe/>
+    </div>
   );
 }
 
