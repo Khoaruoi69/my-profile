@@ -46,23 +46,26 @@ class App {
   }
 
   initStats = () => {
-    this.stats = new Stats();
-    this.stats.setMode(0);
-    this.stats.domElement.style.position = 'absolute';
-    this.stats.domElement.style.right = '10px';
-    this.stats.domElement.style.bottom = '10px';
-    document.body.appendChild( this.stats.domElement );
+    // this.stats = new Stats();
+    // this.stats.setMode(0);
+    // this.stats.domElement.style.position = 'absolute';
+    // this.stats.domElement.style.right = '10px';
+    // this.stats.domElement.style.bottom = '10px';
+    // document.body.appendChild( this.stats.domElement );
     
   }
 
   render = () => {
     this.setup(this);
-    document.body.appendChild(this.renderer.domElement);
+    const rootElement = document.getElementById("footer");
+    const canvas = this.renderer.domElement;
+    const firstChild = rootElement.firstChild;
+    rootElement.insertBefore(canvas, firstChild);
   }
 
   update = () => {
     this.animate(this);
-    this.stats.update();
+   // this.stats.update();
     this.controls.update();
     this.renderer.render(this.scene, this.camera);
     requestAnimationFrame(this.update);

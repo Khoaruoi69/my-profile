@@ -420,6 +420,7 @@ button:focus {
   padding-left: 15px;
 }
 
+
 .icon-colour {
   color: #700c86 !important;
 }
@@ -427,8 +428,10 @@ button:focus {
 /* --------- */
 /* Footer */
 /* --------- */
+
 .footer {
   background-color: rgb(10, 4, 22);
+  /* position: fixed; */
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;

@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import ReactDOM from 'react-dom';
 import JsGlobe from "./Js-globe";
 
 function Globe() {
@@ -8,5 +9,5 @@ function Globe() {
     </div>
   );
 }
-
+ReactDOM.render(<JsGlobe />, document.getElementById('root'));
 export default Globe;
