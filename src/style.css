@@ -281,9 +281,10 @@ button:focus {
 }
 
 .home-section {
-  position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/Images/galaxy.png);
+  position: relative !important;
+  /* z-index: -1; */
+  /* background-image: var(--image-gradient), url(./Assets/Images/galaxy.png); */
+  background-image:  var(--section-background-color) !important;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;

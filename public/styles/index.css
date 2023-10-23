@@ -8,6 +8,8 @@
   
   canvas {
 	z-index: -1; /* Đặt z-index cao hơn canvas */
+  max-width: 1465px !important;
+
   }
 
 
