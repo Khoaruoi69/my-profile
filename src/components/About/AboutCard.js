@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImPointRight, ImHappy, ImHappy2, ImSmile } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,10 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
+            Hi Everyone, I am <span className="purple">Khoa Nguyen </span>
             from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            <br /> I am software engineer at company Bstar Solutions.
             <br />
             Additionally, I am currently employed as a software developer at
             Juspay.
@@ -21,20 +20,20 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImHappy />  Dopt fish
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImHappy2 />  Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImSmile /> Travelling
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          "Strive to make a difference through every line of code!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Khoa Nguyen</footer>
         </blockquote>
       </Card.Body>
     </Card>
