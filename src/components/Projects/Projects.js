@@ -25,7 +25,7 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
-            <ProjectCard
+            <ProjectCard 
               imgPath={ninhBinh}
               isBlog={false}
               title="Parallax-travel"
