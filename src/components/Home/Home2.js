@@ -26,7 +26,7 @@ function Home2() {
               skills, but it also opens up new doors for learning and acquiring
               useful knowledge 😜😜😜
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in classics like 
               <i>
                 <b className="purple"> C#, Java, Python, VueJS, ReactJS</b>
               </i>
