@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+
+#footer {
+	bottom: 0 !important;
+	z-index: 1; /* Đặt z-index cao hơn canvas */
+  }
+  
+  canvas {
+	z-index: -1; /* Đặt z-index cao hơn canvas */
+  max-width: 1465px !important;
+
+  }
+
+
